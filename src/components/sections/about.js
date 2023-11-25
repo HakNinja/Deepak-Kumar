@@ -125,7 +125,9 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  <p></p>;
+  const skills = ['Blockchain', 'Machine Learning'];
+  // const skills = ['Linux' , 'TypeScript', 'React', 'Node.js', 'WordPress', 'Angular ', 'Machine Learning', 'Next.js', 'Php', 'Python', 'Jquery', 'Blockchain', 'Java', 'Docker'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -134,7 +136,7 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>
+            {/* <p>
               Hello! My name is Brittany and I enjoy creating things that live on the internet. My
               interest in web development started back in 2012 when I decided to try editing custom
               Tumblr themes — turns out hacking together a custom reblog button taught me a lot
@@ -159,8 +161,20 @@ const About = () => {
               </a>{' '}
               that covers everything you need to build a web app with the Spotify API using Node
               &amp; React.
+            </p> */}
+            <p>
+              Hello there! As a budding freelancer, I'm eager to bring my expertise in Python
+              application development, web design, web application development, and Android
+              application development to the table. Grounded in a solid understanding of Python and
+              web technologies, I specialize in creating tailored, responsive solutions for clients.
+              Whether it's a sleek website design, a custom web or mobile application, or Python
+              development services, I'm ready to turn your ideas into reality.
             </p>
-
+            <p>
+              My approach is characterized by flexibility, efficiency, and a strong commitment to
+              delivering top-notch results. Let's collaborate to transform your vision into a
+              standout digital experience!
+            </p>
             <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
 

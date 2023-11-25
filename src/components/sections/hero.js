@@ -44,6 +44,10 @@ const StyledHeroSection = styled.section`
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
   }
+
+  .big-heading-sub {
+    font-size: 30px;
+  }
 `;
 
 const Hero = () => {
@@ -60,32 +64,39 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Deepak Kumar.</h2>;
+  const three = (
+    <p className="big-heading big-heading-sub">Just a guy who's a PROGRAMMER for fun</p>
+  );
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
+        {/* I’m a software engineer specializing in building (and occasionally designing) exceptional
         digital experiences. Currently, I’m focused on building accessible, human-centered products
         at{' '}
         <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
           Upstatement
-        </a>
-        .
+        </a>. */}
+        I'm a computer science student with a passion for diving deep into the world of technology.
+        I love unraveling the mysteries of cryptography and am on a constant quest for in-depth
+        learning and understanding. Additionally, I thrive on troubleshooting and providing
+        technical support to overcome challenges. Always eager to explore new horizons in the tech
+        landscape!
       </p>
     </>
   );
-  const five = (
-    <a
-      className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-      target="_blank"
-      rel="noreferrer">
-      Check out my course!
-    </a>
-  );
+  // const five = (
+  //   <a
+  //     className="email-link"
+  //     href="https://www.newline.co/courses/build-a-spotify-connected-app"
+  //     target="_blank"
+  //     rel="noreferrer">
+  //     Check out my course!
+  //   </a>
+  // );
 
-  const items = [one, two, three, four, five];
+  // const items = [one, two, three, four, five];
+  const items = [one, two, three, four];
 
   return (
     <StyledHeroSection>
